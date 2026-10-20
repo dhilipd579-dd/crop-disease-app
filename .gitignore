@@ -1,0 +1,27 @@
+# Local dependencies and build output
+node_modules/
+client/node_modules/
+client/dist/
+server/node_modules/
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+server/.env
+client/.env
+client/.env.*
+!client/.env.example
+
+# Local Python environment and training data (keep the trained model)
+ai-service/venv/
+ai-service/.venv/
+ai-service/__pycache__/
+ai-service/dataset/
+ai-service/**/*.pyc
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
